@@ -1,10 +1,10 @@
 <partial src="header.html"></partial>
 
-<section class="container-fluid bg-white" style="height: 130vh;">
-  <div class="container contactForm p-5">
+<section class="container-fluid bg-white">
+  <div class="container contactForm py-5 px-0">
     <h1><strong>Contact Us</strong></h1>
     <div class="row">
-      <div class="col-7 p-0">
+      <div class="col-12 col-md-7 p-0">
         <form action="">
 
           <label for="name">Full name <br>
@@ -23,11 +23,13 @@
             <textarea name="message" id="message" rows="10"></textarea>
           </label>
 
-          <button class="btn btn-submit" type="submit"><h4 class="mb-0">Submit</h4></button>
+          <div class="content-btn">
+            <button class="btn btn-submit" type="submit"><h4 class="mb-0">Submit</h4></button>
+          </div>
         </form>
       </div>
 
-      <div class="col-5 contactAddresses d-flex flex-column align-items-center">
+      <div class="col-12 col-md-5 p-0  contactAddresses d-flex flex-column align-items-center">
 
         <div class="address my-4">
           <p><strong>Support Email</strong></p>
@@ -42,7 +44,9 @@
         <div class="address my-4">
           <p><strong>Operating hours </strong></p>
           <span>
-            Monday-Friay <br> 
+            Monday-Friay
+          </span>
+          <span>
             9AM - 5 PM EST
           </span>
         </div>
@@ -50,8 +54,12 @@
         <div class="address my-4">
           <p><strong>Mailing address</strong></p>
           <span>
-            Explire Creit Operations Dept. <br> 
-            P.O.Box 1503 <br>
+            Explire Creit Operations Dept.
+          </span>
+          <span>
+            P.O.Box 1503
+          </span>
+          <span>
             Atlanta, GA 94070
           </span>
         </div>

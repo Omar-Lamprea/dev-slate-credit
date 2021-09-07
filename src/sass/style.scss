@@ -51,7 +51,7 @@ footer a:hover{
 }
 
 
-@media screen and (max-width:812px){
+@media screen and (max-width:768px){
     .content{
         display: none;
     }
@@ -65,6 +65,17 @@ footer a:hover{
         background-image: url('../img/main_image_mobile.webp');
         height: 50vh;
     }
+
+    //contactUS
+    .address{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-submit{
+        width: 100% !important;
+    }
+
 }
 
 //@media screen and (min-width:1200px){
@@ -79,18 +90,21 @@ footer a:hover{
     color: #000000;
 }
 
-.contactForm label, .contactForm input, .contactForm textarea{
+.contactForm label, .contactForm input, .contactForm textarea, .content-btn{
     width: 100%;
     padding: .8rem;
 }
 .contactForm input, .contactForm textarea {
     border: 1px solid #c1c1c1;
+    border-radius: .2rem;
 }
+
 .contactForm label{
     color: #c1c1c1;
 }
 .btn-submit{
-    margin-left: .8rem;
+    // margin-left: .8rem;
+    margin-bottom: .8rem;
     padding: .5rem;
     width: 50%;
     // border: none;
