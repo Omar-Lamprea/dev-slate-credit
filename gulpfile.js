@@ -78,7 +78,7 @@ function watchFiles() {
 }
 
 function del() {
-    return gulp.src(['docs/*', '!docs/legal/*'], {read: false})
+    return gulp.src(['docs/css/','docs/img/','docs/js/'], {read: false})
         .pipe(clean());
 }
 
