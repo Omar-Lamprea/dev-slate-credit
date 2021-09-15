@@ -47,7 +47,7 @@ footer p {
 }
 footer span,
 footer p {
-  color: #3c3c3c;
+  color: #979797;
 }
 footer a:hover {
   color: #808080 !important;
@@ -140,5 +140,12 @@ footer {
   span,
   p {
     font-size: 14px;
+  }
+}
+
+section.content {
+  h1,
+  h2 {
+    text-shadow: black 1px 2px;
   }
 }
